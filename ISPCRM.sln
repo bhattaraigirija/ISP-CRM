@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISPCRM", "ISPCRM.csproj", "{336449E7-D750-48D2-8F1F-59D55021B1FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{336449E7-D750-48D2-8F1F-59D55021B1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336449E7-D750-48D2-8F1F-59D55021B1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336449E7-D750-48D2-8F1F-59D55021B1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336449E7-D750-48D2-8F1F-59D55021B1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8AAB828-EC6A-4FA8-BA9F-176BE1C23FC0}
+	EndGlobalSection
+EndGlobal

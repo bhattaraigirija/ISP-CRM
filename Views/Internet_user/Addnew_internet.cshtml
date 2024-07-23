@@ -1,0 +1,47 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+
+}
+<div class="main-content">
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+            <h3 class="title-3 m-b-30">
+                <i class="fas fa-plus-square"></i> Add New Plan
+            </h3>
+            <div class="container">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-sm-6" for="name">Plan Name:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="pname" placeholder="Enter New Plan Name" name="pname">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-6" for="speed">Enter Speed Limit (Mb/sec):</label>
+                        <div class="col-sm-12">
+                            <input type="number" class="form-control" placeholder="Enter Speed Limit" name="limit">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-6" for="days">Enter Duration (In Days):</label>
+                        <div class="col-sm-12">
+                            <input type="number" class="form-control" placeholder="Enter Duration" name="duration">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-6" for="cost">Enter Cost:</label>
+                            <div class="col-sm-12">
+                                <input type="number" class="form-control" placeholder="Enter Cost" name="Cost">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

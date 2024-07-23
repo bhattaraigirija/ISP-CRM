@@ -1,0 +1,91 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutEmployee.cshtml";
+
+}
+<div class="main-content">
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+            <h3 class="title-3 m-b-30">
+                <i class="fas fa-plus-square"></i> Add New Employee
+            </h3>
+            <div class="container">
+                <form class="form-horizontal">
+                    <!-- Name-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="email">Employee Name:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="ename" placeholder="Enter employee name" name="ename">
+                        </div>
+                    </div>
+
+                    <!-- Address-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">Employee Address:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="eaddr" placeholder="Enter employee name" name="eadr">
+                        </div>
+                    </div>
+
+                    <!-- Citizenship Number-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">Citzenship Number:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="cnum" placeholder="Enter employee citizenship number" name="cnum">
+                        </div>
+                    </div>
+
+                    <!--Email-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">Email:</label>
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+                    </div>
+                    <!-- Phone-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">Employee Phone:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="ephone" placeholder="Enter employee phone" name="ephone">
+                        </div>
+                    </div>
+                    <!-- Post-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="email">Employee Post:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="epost" placeholder="Enter employee post" name="epost">
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <!--USER & PASS-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="email">Username:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="euser" placeholder="Enter Username">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="pwd">Password:</label>
+                        <div class="col-sm-12">
+                            <input type="password" class="form-control" name="pwd" placeholder="Enter password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="pwd">Confirm Password:</label>
+                        <div class="col-sm-12">
+                            <input type="password" class="form-control" name="cpwd" placeholder="Confirm password">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-10">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

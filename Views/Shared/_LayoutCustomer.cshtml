@@ -1,0 +1,542 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Gnet Customer</title>
+    <link href="~/css/font-face.css" rel="stylesheet" media="all">
+    <link href="~/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="~/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="~/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="~/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+    <!-- Vendor CSS-->
+
+    <link href='~/vendor/fullcalendar-3.10.0/fullcalendar.css' rel='stylesheet' media="all" />
+
+    <link href="~/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="~/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="~/vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="~/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="~/vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="~/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="~/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="~/css/custom.css" rel="stylesheet" media="all">
+    
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="/Home_user/Index">
+                            <img src="~/images/icon/logob.png" alt="Gnet Logo" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li class="has-sub">
+                            <a class="js-arrow" href="/Home_user/Index">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard
+                            </a>
+
+                        </li>
+
+                        <!------------Internet Plan---------------->
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-desktop"></i>Internet Plan
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+
+                                <li>
+                                    <a asp-controller="Internet" asp-action="View_internet">View All Plan</a>
+                                </li>
+
+                            </ul>
+
+
+                            <!------------Employee-------------
+
+        <li class="has-sub">
+            <a class="js-arrow" href="#">
+                <i class="fas fa-table"></i>Employee
+            </a>
+            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                <li>
+                    <a href="/Employee/Addnew_employee">Add New Employee</a>
+                </li>
+                <li>
+                    <a href="/Employee/View_employee">View All Employee</a>
+                </li>
+                <li>
+                    <a href="/Employee/Ed_employee">Edit & Delete</a>
+                </li>
+            </ul>--->
+                            <!------------Customer--------------
+
+        <li class="has-sub">
+                                    <a class="js-arrow" href="#">
+                                        <i class="fas fa-users"></i>Customer
+                                    </a>
+                                    <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                        <li>
+                                            <a href="/Customer/Addnew_customer">Add New Customer</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Customer/View_customer">View All Customer</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Customer/Ed_customer">Edit & Delete</a>
+                                        </li>
+                                    </ul>
+                                        -->
+                            <!------------Complaint---------------->
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-check-square"></i>Complain
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="/Complaint/Addnew_complaint">Add New Complain</a>
+                                </li>
+
+
+                            </ul>
+
+                            <!------------Notify---------------->
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-copy"></i>Notice
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+
+                                <li>
+                                    <a href="/Notice/View_notice">View All Notice</a>
+                                </li>
+
+
+                            </ul>
+
+                            <!------------------------Message From Visitor---------------->
+                        <li>
+                            <a asp-controller="Message" asp-action="SendMessage">
+                                <i class="zmdi zmdi-email"></i>Messages
+                            </a>
+                        </li>
+
+                        <!------------------------Report--------------
+
+    <li class="has-sub">
+        <a class="js-arrow" href="#">
+            <i class="fas fa-chart-bar"></i>Report
+        </a>
+        <ul class="list-unstyled navbar__sub-list js-sub-list">
+            <li>
+                <a asp-controller="Pie" asp-action="ComplainReport"> Complaint Report</a>
+            </li>
+            <li>
+                <a asp-controller="Pie" asp-action="View_All_Report"> All Report</a>
+            </li>
+
+        </ul> -->
+                        <!------------------------Setting---------------->
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="zmdi zmdi-settings"></i>Setting
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                
+
+
+                                <li>
+                                    <a href="#">Log Out</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!------------------------------------------------------ END HILE----------------------------------------------------->
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a href="/Home_user/Index">
+                    <img src="~/images/icon/logob.png" alt="Gnet" />
+                </a>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li class="active has-sub">
+                            <a class="js-arrow" href="/Home_user/Index">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard
+                            </a>
+
+                        </li>
+
+                        <!------------Internet Plan---------------->
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-desktop"></i>Internet Plan
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+
+                                <li>
+                                    <a asp-controller="Internet" asp-action="View_internet">View All Plan</a>
+                                </li>
+
+                            </ul>
+
+
+                            <!------------Employee-------------
+
+    <li class="has-sub">
+        <a class="js-arrow" href="#">
+            <i class="fas fa-table"></i>Employee
+        </a>
+        <ul class="list-unstyled navbar__sub-list js-sub-list">
+            <li>
+                <a href="/Employee/Addnew_employee">Add New Employee</a>
+            </li>
+            <li>
+                <a href="/Employee/View_employee">View All Employee</a>
+            </li>
+            <li>
+                <a href="/Employee/Ed_employee">Edit & Delete</a>
+            </li>
+        </ul>
+
+            --->
+                            <!------------Customer-------------
+
+<li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-users"></i>Customer
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="/Customer/Addnew_customer">Add New Customer</a>
+                                </li>
+                                <li>
+                                    <a href="/Customer/View_customer">View All Customer</a>
+                                </li>
+                                <li>
+                                    <a href="/Customer/View_customer">Edit & Delete</a>
+                                </li>
+                            </ul>
+
+
+                            <!------------Complaint---------------->
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-check-square"></i>Complain
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="/Complaint/Addnew_complaint">Add New Complain</a>
+                                </li>
+                               
+                            </ul>
+
+
+
+                            <!------------Notify---------------->
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-copy"></i>Notice
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                              
+                                <li>
+                                    <a href="/Notice/View_notice">View All Notice</a>
+                                </li>
+
+                               
+                            </ul>
+
+
+                            <!------------------------Calender--------------
+                        <li>
+                            <a href="calendar.html">
+                                <i class="fas fa-calendar-alt"></i>Calendar
+                            </a>
+                        </li>  -->
+                            <!------------------------Message From Visitor---------------->
+                        <li>
+                            <a asp-controller="Message" asp-action="SendMessage">
+                                <i class="zmdi zmdi-email"></i>Messages
+                            </a>
+                        </li>
+
+                        <!------------------------Report----------------
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-chart-bar"></i>Report
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a asp-controller="Pie" asp-action="ComplainReport"> Complaint Report</a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Pie" asp-action="View_All_Report"> All Report</a>
+                                </li>
+                            </ul>
+
+                            <!------------------------Setting---------------->
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="zmdi zmdi-settings"></i>Setting
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                               
+
+
+                                <li>
+                                    <a asp-controller="Log_admin" asp-action="Adminlogin">Log Out</a>
+                                </li>
+                            </ul>
+
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header" action="" method="POST">
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search..." />
+                                <button class="au-btn--submit" type="submit">
+                                    <i class="zmdi zmdi-search"></i>
+                                </button>
+                            </form>
+
+                            <div class="header-button">
+                                <div class="noti-wrap">
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-comment-more"></i>
+
+                                        <div class="mess-dropdown js-dropdown">
+
+
+                                            <div class="mess__footer">
+                                                <a asp-controller="Complaint" asp-action="View_complaint">View all complain</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-email"></i>
+
+                                        <div class="mess-dropdown js-dropdown">
+
+
+                                            <div class="mess__footer">
+                                                <a asp-controller="Message" asp-action="MessageView">View all message.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-notifications"></i>
+
+                                        <div class="mess-dropdown js-dropdown">
+
+
+                                            <div class="mess__footer">
+                                                <a asp-controller="Notice" asp-action="View_notice">View all Notice</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                    <!--this is code for making profile visible if we delete this code then our admin profile will desable-->
+
+                                    <div class="noti__item js-item-menu">
+
+                                        <div class="email-dropdown js-dropdown">
+
+
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="~/images/icon/avatar-05.jpg" alt="profile" />
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+
+                                    <!--End of profile maker code-->
+
+                                </div>
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                            <img src="~/images/icon/profile.jpg" alt="Profile" />
+                                        </div>
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="#">Girija</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="~/images/icon/profile.jpg" alt="Profile" />
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="#">Girija</a>
+                                                    </h5>
+                                                    <span class="email">girija@gmail.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__body">
+
+
+
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a asp-controller="Log_admin" asp-action="Adminlogin">
+                                                    <i class="zmdi zmdi-power"></i>Logout
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER DESKTOP-->
+            <!-- MAIN CONTENT-->
+
+
+            @RenderBody()
+
+
+            <!-- END MAIN CONTENT-->
+            <div class="copyright">
+                <p>Copyright © 2020 <a href="http://www.gpbhattarai.ml/">girija</a>. All Right Reserved.</p>
+            </div>
+            <!-- END PAGE CONTAINER-->
+        </div>
+
+    </div>
+
+    <script src="~/vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="~/vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="~/vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <!-- Vendor JS       -->
+    <script src="~/vendor/slick/slick.min.js"></script>
+    <script src="~/vendor/wow/wow.min.js"></script>
+    <script src="~/vendor/animsition/animsition.min.js"></script>
+    <script src="~/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="~/vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="~/vendor/counter-up/jquery.counterup.min.js"></script>
+    <script src="~/vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="~/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="~/vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="~/vendor/select2/select2.min.js"></script>
+
+    <!-- Main JS-->
+    <script src="~/js/main.js"></script>
+    <script src="~/css/pie.js"></script>
+
+
+    <script src="~/vendor/fullcalendar-3.10.0/lib/moment.min.js"></script>
+    <script src="~/vendor/fullcalendar-3.10.0/fullcalendar.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            // for now, there is something adding a click handler to 'a'
+            var tues = moment().day(2).hour(19);
+
+            // build trival night events for example data
+            var events = [
+                {
+                    /*  title: "",
+                      start: moment().format('YYYY-MM-DD'),
+                      url: '#'*/
+                },
+                {
+                    /*  title: "",
+                    start: moment().hour(9).add(2, 'days').toISOString(),
+                    url: '#' */
+                }
+
+            ];
+
+            var trivia_nights = []
+
+            for (var i = 1; i <= 4; i++) {
+                var n = tues.clone().add(i, 'weeks');
+                console.log("isoString: " + n.toISOString());
+                trivia_nights.push({
+                    /*
+                  title: 'Trival Night Pub XYZ',
+                  start: n.toISOString(),
+                  allDay: false,
+                  url: '#'*/
+                });
+            }
+
+            // setup a few events
+            $('#calendar').fullCalendar({
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek,agendaDay,listWeek'
+                },
+                events: events.concat(trivia_nights)
+            });
+        });
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutEmployee.cshtml";
+
+}
+<div class="main-content">
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+            <h3 class="title-3 m-b-30">
+                <i class="fas fa-plus-square"></i> Add New Customer
+            </h3>
+            <div class="container">
+                <form class="form-horizontal">
+                    <!-- Name-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="email">Customer Name:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="cname" placeholder="Enter customer name" name="cname">
+                        </div>
+                    </div>
+
+                    <!-- Address-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">Customer Address:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="caddr" placeholder="Enter customer address" name="caddr">
+                        </div>
+                    </div>
+
+
+                    <!--Email-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">Email:</label>
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" id="cemail" placeholder="Enter email">
+                        </div>
+                    </div>
+                    <!-- Phone-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">Customer Phone:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="cphone" placeholder="Enter employee phone" name="ephone">
+                        </div>
+                    </div>
+                    <!-- requested Plan-->
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <label for="sel1">Requested Plan:</label>
+                            <select class="form-control" id="sel1">
+                                <option selected disabled>Select </option>
+                                <option>abc </option>
+                                <option>xyz</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Duration-->
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <label for="sel1">Duration:</label>
+                            <select class="form-control" id="sel2">
+                                <option selected disabled>Select </option>
+                                <option>abc </option>
+                                <option>xyz</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Cost-->
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <label for="sel1">Cost:</label>
+                            <select class="form-control" id="sel3">
+                                <option selected disabled>Select </option>
+                                <option>abc </option>
+                                <option>xyz</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <!--USER & PASS-->
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="email">Username:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="euser" placeholder="Enter Username">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="pwd">Password:</label>
+                        <div class="col-sm-12">
+                            <input type="password" class="form-control" name="pwd" placeholder="Enter password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="pwd">Confirm Password:</label>
+                        <div class="col-sm-12">
+                            <input type="password" class="form-control" name="cpwd" placeholder="Confirm password">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-10">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,88 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutEmployee.cshtml";
+
+}
+
+<div class="main-content">
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="col-md-6">
+
+                        <div class="main_box">
+
+                            <h1>Dially Complain Report</h1>
+
+                            <canvas id="myChart"></canvas>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+
+                        <div class="count_box">
+
+
+
+
+                            <div class="form-group">
+                                <label for="coronavirus-input">Total Number Of Complain :</label>
+                                <input type="text" class="total-input form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="coronavirus-input">Solved Complain :</label>
+                                <input type="text" name="coronavirus-input" class="coronavirus-input form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="deaths-input">Remaining Complain :</label>
+                                <input type="text" name="deaths-input" class="deaths-input form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="recovered-input">UnSolved</label>
+                                <input type="text" name="recovered-input" class="recovered-input form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-4" for="pwd">Report Date:</label>
+                                <div class="col-sm-12">
+
+                                    <h5 id="date"></h5>
+                                    <script>
+                                        document.getElementById("date").innerHTML = Date();
+                                    </script>
+                                </div>
+                            </div>
+
+
+                            <br />
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-success">Submit</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+

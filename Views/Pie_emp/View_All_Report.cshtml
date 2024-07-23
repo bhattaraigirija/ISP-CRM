@@ -1,0 +1,75 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutEmployee.cshtml";
+
+}
+<div class="main-content">
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+            <h3 class="title-3 m-b-30">
+                <i class="fas fa-edit"></i> All Complain Report
+            </h3>
+            <div class="row" style="margin-left:5px;">
+                <div class="col-md-11">
+                    <!-- DATA TABLE -->
+
+                    <div class="table-data__tool">
+                        <div class="table-data__tool-left">
+                            <div class="rs-select2--light rs-select2--md">
+                                <select class="js-select2" name="property">
+                                    <option selected="selected">All Properties</option>
+                                    <option value="">Option 1</option>
+                                    <option value="">Option 2</option>
+                                </select>
+                                <div class="dropDownSelect2"></div>
+                            </div>
+                            <div class="rs-select2--light rs-select2--sm">
+                                <select class="js-select2" name="time">
+                                    <option selected="selected">Today</option>
+                                    <option value="">3 Days</option>
+                                    <option value="">1 Week</option>
+                                </select>
+                                <div class="dropDownSelect2"></div>
+                            </div>
+                            <button class="au-btn-filter">
+                                <i class="zmdi zmdi-filter-list"></i>filters
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="table-responsive table-responsive-data2">
+                        <table class="table table-data2">
+                            <thead>
+                                <tr>
+                                    <th>S.No.</th>
+                                    <th>Total Complain</th>
+                                    <th>Solved</th>
+                                    <th>UnSolved</th>
+                                    <th>Rimaining</th>
+                                    <th>Date</th>
+                                    <th class="text-center">Action</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="tr-shadow">
+
+                                    <td>1</td>
+                                    <td>500</td>
+                                    <td>200</td>
+                                    <td>100</td>
+                                    <td>200</td>
+                                    <td>2020-02-23</td>
+                                    <td>
+                                        <a href="#">View In Chart</a>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- END DATA TABLE -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
